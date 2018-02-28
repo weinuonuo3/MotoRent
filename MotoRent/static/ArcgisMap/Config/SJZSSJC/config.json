@@ -1,0 +1,284 @@
+{
+    "id": "Public",
+    "displayName": "Public",
+    "description": "Publicly Available Site",
+    "currentVersion": "3.8",
+    "hasNamedExtents": false,
+    "hasPrintTemplates": false,
+    "hasWorkflows": false,
+    "hasViewers": true,
+    "hasOverviewMap": true,
+    "hasNorthArrow": false,
+    "hasVirtualDirectory": false,
+    "hasGeocodingEndpoints": false,
+    "hasGeoprocessingEndpoints": false,
+    "hasGeometryEndpoints": false,
+    "map": {
+        "primaryMapServiceID": 2,
+        "mapServices": [{
+            "id": 3,
+            "displayName": "底图(彩色)",
+            "description": "d",
+            "connectionString": "url=http://218.1.67.12/arcgisadaptor/rest/services/SHcity20171117/MapServer",
+            "serviceType": "Tiled",
+            "serviceFunction": "Base",
+            "opacity": 1,
+            "visible": true,
+            "drawingBehavior": "MapService",
+            "iconUri": null,
+            "includeInLayerList": true,
+            "isExpanded": true,
+            "updateInterval": null,
+            "format": "png32",
+            "themeSettings": [{
+                "themeID": 1,
+                "visible": true
+            }],
+            "layers": [],
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            },
+            "properties": [],
+            "extensions": []
+        }],
+        "initialExtent": {
+            "xmin": "-53553.1599121094",
+            "ymin": "-59484.5599975586",
+            "xmax": "43259.9381103516",
+            "ymax": "45843.8900756836",
+            "spatialReference": {
+                "wkid": null
+            }
+        },
+        "fullExtent": {
+            "xmin": "-53553.1599121094",
+            "ymin": "-59484.5599975586",
+            "xmax": "43259.9381103516",
+            "ymax": "45843.8900756836",
+            "spatialReference": {
+                "wkid": null
+            }
+        },
+        "units": {
+            "type": "Meters",
+            "name": "Meters"
+        },
+        "layerThemes": {
+            "allowDefault": true,
+            "defaultThemeDisplayName": "默认",
+            "startupThemeID": null,
+            "items": []
+        }
+    },
+    "overviewMap": {
+        "primaryMapServiceID": 1,
+        "mapServices": [{
+            "id": 1,
+            "displayName": "Napa  County",
+            "description": null,
+            "connectionString": "url=http://101.200.182.154/arcgisadaptor/rest/services/WAVENET_SJZ_20160615/MapServer",
+            "serviceType": "Tiled",
+            "serviceFunction": "Base",
+            "opacity": 1,
+            "visible": true,
+            "drawingBehavior": "MapService",
+            "iconUri": null,
+            "includeInLayerList": false,
+            "isExpanded": false,
+            "updateInterval": null,
+            "format": "png32",
+            "themeSettings": [],
+            "layers": [],
+            "spatialReference": {
+                "wkid": null
+            },
+            "properties": [],
+            "extensions": []
+        }],
+        "initialExtent": {
+            "xmin": 483981.25511653,
+            "ymin": 184350.338496224,
+            "xmax": 519540.437234895,
+            "ymax": 213982.990261529,
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            }
+        },
+        "fullExtent": {
+            "xmin": 490026.28757697623,
+            "ymin": 190882.30180973746,
+            "xmax": 516736.4760612799,
+            "ymax": 206614.89503200725,
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            }
+        }
+    },
+    "printTemplates": [{
+            "id": 0,
+            "displayName": "8.5 x 11 Landscape",
+            "description": "8.5 inch by 11 inch template with landscape orientation",
+            "type": "Map Template Report",
+            "supportsEmailNotification": false,
+            "supportedOutputFormats": [
+                "Pdf",
+                "Tiff",
+                "Jpeg"
+            ],
+            "supportedResolutions": [{
+                    "displayName": "Low",
+                    "dpi": 96
+                },
+                {
+                    "displayName": "Medium",
+                    "dpi": 192
+                },
+                {
+                    "displayName": "High",
+                    "dpi": 300
+                }
+            ],
+            "supportedScales": [],
+            "textFields": [{
+                    "id": "tf__Title",
+                    "displayName": "标题",
+                    "value": "County of Napa GIS",
+                    "multiline": false
+                },
+                {
+                    "id": "tf__Notes",
+                    "displayName": "笔记",
+                    "value": null,
+                    "multiline": true
+                }
+            ],
+            "maximumResolution": 300,
+            "properties": [],
+            "extensions": []
+        },
+        {
+            "id": 1,
+            "displayName": "11 x 17 Landscape",
+            "description": "11 inch by 17 inch template with landscape orientation",
+            "type": "Map Template Report",
+            "supportsEmailNotification": true,
+            "supportedOutputFormats": [
+                "Pdf"
+            ],
+            "supportedResolutions": [{
+                    "displayName": "Low",
+                    "dpi": 96
+                },
+                {
+                    "displayName": "Medium",
+                    "dpi": 192
+                },
+                {
+                    "displayName": "High",
+                    "dpi": 300
+                }
+            ],
+            "supportedScales": [],
+            "textFields": [{
+                    "id": "tf__Title",
+                    "displayName": "标题",
+                    "value": "County of Napa GIS",
+                    "multiline": false
+                },
+                {
+                    "id": "tf__Notes",
+                    "displayName": "笔记",
+                    "value": null,
+                    "multiline": true
+                }
+            ],
+            "maximumResolution": 300,
+            "properties": [],
+            "extensions": []
+        },
+        {
+            "id": 2,
+            "displayName": "17 x 22 Landscape",
+            "description": "17 inch by 22 inch template with landscape orientation",
+            "type": "Map Template Report",
+            "supportsEmailNotification": true,
+            "supportedOutputFormats": [
+                "Pdf"
+            ],
+            "supportedResolutions": [{
+                    "displayName": "Low",
+                    "dpi": 96
+                },
+                {
+                    "displayName": "Medium",
+                    "dpi": 192
+                },
+                {
+                    "displayName": "High",
+                    "dpi": 300
+                }
+            ],
+            "supportedScales": [],
+            "textFields": [{
+                    "id": "tf__Title",
+                    "displayName": "标题",
+                    "value": "County of Napa GIS",
+                    "multiline": false
+                },
+                {
+                    "id": "tf__Notes",
+                    "displayName": "笔记",
+                    "value": null,
+                    "multiline": true
+                }
+            ],
+            "maximumResolution": 300,
+            "properties": [],
+            "extensions": []
+        }
+    ],
+    "namedExtents": [],
+    "searchTables": [],
+    "workflows": [{
+            "id": "ExternalFiledMap",
+            "displayName": "ExternalFiledMap",
+            "inputs": [],
+            "outputs": [],
+            "error": null,
+            "properties": [],
+            "extensions": []
+        },
+        {
+            "id": "HazMat",
+            "displayName": "HazMat",
+            "inputs": [],
+            "outputs": [],
+            "error": null,
+            "properties": [],
+            "extensions": []
+        },
+        {
+            "id": "ParcelSummayReportQueryWorkFlow",
+            "displayName": "ParcelSummayReportQueryWorkFlow",
+            "inputs": [],
+            "outputs": [],
+            "error": null,
+            "properties": [],
+            "extensions": []
+        }
+    ],
+    "northArrow": {
+        "characterIndex": 176,
+        "foreColor": "Black"
+    },
+    "viewers": [{
+        "id": "Public",
+        "displayName": "Public",
+        "properties": [],
+        "extensions": []
+    }],
+    "geocodingEndpoints": [],
+    "geoprocessingEndpoints": [],
+    "properties": [],
+    "extensions": []
+}

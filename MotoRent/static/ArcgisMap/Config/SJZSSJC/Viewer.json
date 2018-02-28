@@ -1,0 +1,13 @@
+{
+    "Globals": {
+        "LegendFrameVisibility": true,
+        "OverviewMapShow": false,
+        "OverviewMapOpenByDefault": false,
+        "OverviewMapMode": "dynamic",
+        "OverviewMapAttachTo": "bottom-right",
+        "ScaleBarShow": false,
+        "ScaleBarAttachTo": "bottom-left",
+        "ScaleSliderShow": true,
+        "demo": ""
+    }
+}

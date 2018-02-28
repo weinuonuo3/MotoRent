@@ -1,0 +1,635 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.k-window-content {
+    padding: 10px;
+}
+
+#deviceInfo,
+#factInfo {
+    font-size: 14px;
+    border-width: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#deviceInfo ul，#factInfo ul {
+    padding: 0px 0 0 10px;
+}
+
+#deviceInfo li,
+#factInfo li {
+    margin: 0px;
+    background-color: #fafcfd;
+    border-radius: 0 0 0 0;
+    height: 28px;
+    border-color: #bbcbdf;
+    border-width: 0px 1px 0px 0px;
+    text-align: center;
+    width: 84px;
+}
+
+#deviceInfo li.k-first,
+#factInfo li.k-first {
+    border-width: 0px 1px 0px 1px;
+}
+
+#deviceInfo li span,
+#factInfo li span{
+    color: #536083;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+
+#deviceInfo li.k-state-active,
+#factInfo li.k-state-active {
+    background-color: #4b71de;
+}
+
+#deviceInfo li.k-state-active span,
+#factInfo li.k-state-active span {
+    color: #ffffff;
+}
+
+#deviceInfo .component-div,
+#factInfo .component-div {
+    background-color: #ffffff;
+}
+
+#deviceInfo.k-header,
+#factInfo.k-header {
+    background-color: #ffffff;
+}
+
+#deviceInfo .k-tabstrip-items .k-link,
+#deviceInfo .k-panelbar .k-tabstrip-items .k-link,
+#factInfo .k-tabstrip-items .k-link,
+#factInfo .k-panelbar .k-tabstrip-items .k-link {
+    padding: 0;
+    line-height: 30px;
+}
+
+#deviceInfo .k-tabstrip>.k-content,
+#deviceInfo .k-panelbar .k-tabstrip>.k-content,
+#factInfo .k-tabstrip>.k-content,
+#factInfo .k-panelbar .k-tabstrip>.k-content {
+    padding: 0px;
+}
+
+#deviceInfo .k-tabstrip>.k-content,
+#deviceInfo .k-panelbar .k-tabstrip>.k-content,
+#factInfo .k-tabstrip>.k-content,
+#factInfo .k-panelbar .k-tabstrip>.k-content {
+    position: static;
+    border-style: solid;
+    border-width: 0px;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+}
+
+#deviceInfo .k-item,
+#factInfo .k-item {
+    border-radius: 0 0 0 0;
+}
+
+#deviceInfo .k-tabstrip-items,
+#factInfo .k-tabstrip-items {
+    padding-left: 0;
+}
+
+table {
+    width: 100%;
+    font-family: "宋体";
+    font-size: 12px;
+}
+
+.k-tabstrip:focus {
+    -webkit-box-shadow: 0 0 0px 0 #76abd9;
+    box-shadow: 0 0 0px 0 #76abd9;
+}
+
+#FATable,
+#FITable,
+#TPTable,
+#JBTable {
+    width: 956px;
+    height: 442px;
+    border: 1px solid #DCDCDC;
+}
+
+#PMTable,
+#GMTable {
+    padding: 10px 10px;
+    width: 936px;
+    height: 422px;
+    border: 1px solid #DCDCDC;
+}
+
+
+/*地图点弹出css*/
+
+.tab {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tab td {
+    border: 1px solid #e4e4e4;
+    height: 20px;
+    text-align: right;
+    padding: 0px 2px;
+}
+
+.tab .td-left {
+    width: 65px;
+    background-color: #f7f7f7;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.butn-div {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.butn-div img {
+    cursor: pointer;
+}
+
+.butn-div>div {
+    float: left;
+    width: 121px;
+    height: 40px;
+    text-align: center;
+}
+
+
+/*查看设备窗口css*/
+
+
+/*2017-12-05*/
+
+.k-window {
+    margin-top: 4%;
+    /* margin-left: 8%; */
+}
+
+#grille_grid,
+#gatemachine_grid {
+    border: 1px solid #BBCBDF;
+    width: 934px;
+}
+
+#GMTable .k-header {
+    text-align: center;
+}
+
+#PMTable .k-header {
+    text-align: right;
+}
+
+#GMTable .k-grid-content,
+#PMTable .k-grid-content {
+    /* overflow-y: auto; */
+    overflow-x: hidden;
+}
+
+#associated_grid .k-grid-content,
+#transformswitch_grid .k-grid-content {
+    overflow-x: hidden;
+}
+
+
+/* 基本信息参数css*/
+
+#JBTable table {
+    margin: 0;
+    border: 1px solid #E4E4E4;
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: #333333;
+}
+
+#JBTable table td {
+    border: 1px solid #E4E4E4;
+    height: 30px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#JBTable table .td-left {
+    background-color: #F7F7F7;
+    text-align: right;
+    padding-right: 7px;
+    width: 90px;
+    color: #333333;
+}
+
+
+/* 技术参数css*/
+
+.fa-div {
+    width: 956px;
+    height: 442px;
+    border: 1px solid #DCDCDC;
+}
+
+.fa-div .block-div {
+    width: 285px;
+    height: 178px;
+    background-color: #FFFFFF;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.fa-div #block-div{
+    width: 457px;
+    padding-top: 42px;
+}
+
+.fa-div .block-div table {
+    border: 1px solid #DCDCDC;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+/*.fa-div .block-div tr {
+    border: 1px solid #DCDCDC;
+}*/
+
+.fa-div table td {
+    color: #333333;
+    height: 30px;
+    padding: 0px 2px;
+    text-align: left;
+    padding-left: 5px;
+    /*2017-12-08 gjm*/
+    border: 1px solid #DCDCDC;
+}
+
+.fa-div .title-td {
+    color: #666666;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 5px;
+}
+
+.fa-div .left-td {
+    background-color: #F1F1F1;
+    color: #333333;
+    /*2017-12-08 gjm*/
+    text-align: right;
+    width: 100px;
+    padding-right: 6px;
+}
+
+/*档案材料css*/
+
+#FITable .fi_tr {
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    color: #666666;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+}
+
+#FITable .fi_tr>div {
+    height: 30px;
+    float: left;
+    width: 33%;
+    color: #333333;
+}
+
+#FITable .fi_tr>div a {
+    color: #333333;
+    text-decoration: none;
+}
+
+#FITable .fi_tr:hover {
+    background-color: #E5F3FF;
+    border: 1px solid #BBCDDF;
+}
+
+*/
+/*设施css*/
+
+.tab-facilitysize {
+    width: 100%;
+}
+
+.tab-facilitysize td {
+    height: 25px;
+}
+
+.tab-facilitysize .td-left {
+    width: 75px;
+}
+
+
+/* .fa-div .k-grid-content-expander {
+    width: auto;
+} */
+
+.facility-left-div {
+    width: 162px;
+    height: 172px;
+    float: left;
+    background-color: #F1F1F1;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.facility-right-div {
+    width: 416px;
+    height: 172px;
+    float: left;
+    background-color: #F1F1F1;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.facility-grid-left-div {
+    width: 48%;
+    float: left;
+    margin-top: 14px;
+}
+
+.facility-grid-right-div {
+    width: 48%;
+    float: right;
+    margin-top: 14px;
+}
+
+.facility-grid-span {
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.facility-left-div table tr,
+.facility-right-div table tr {
+    height: 30px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #666666;
+    border: 1px solid #DCDCDC;
+}
+
+.facility-left-div table td,
+.facility-right-div td {
+    padding-left: 20px;
+}
+
+.facility-left-div .title-td,
+.facility-right-div .title-td {
+    font-weight: bold;
+    width: 60px;
+    text-align: right;
+    color: #666666;
+    padding-left: 0px;
+}
+
+.facility-left-div .title2-td,
+.facility-right-div .title2-td {
+    font-weight: bold;
+    width: 80px;
+    text-align: right;
+    color: #666666;
+    padding-left: 0px;
+}
+
+.facility-left-div .left1-td,
+.facility-right-div .left1-td {
+    text-align: right;
+    width: 60px;
+    color: #666666;
+    padding-left: 0px;
+}
+
+.facility-left-div .left2-td,
+.facility-right-div .left2-td {
+    text-align: right;
+    width: 80px;
+    color: #666666;
+    padding-left: 0px;
+}
+
+
+/*水泵|电机CSS  格栅闸机css*/
+
+#pump_grid,
+#grille_grid {
+    border: 1px solid #bfbfbf;
+}
+
+#motor_grid,
+#gatemachine_grid {
+    margin-top: 25px;
+    border: 1px solid #bfbfbf;
+}
+
+#pump_grid tr,
+#motor_grid tr,
+#grille_grid tr,
+#gatemachine_grid tr {
+    height: 30px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+}
+
+#pump_grid table,
+#motor_grid table,
+#grille_grid table,
+#gatemachine_grid table {
+    border-collapse: collapse;
+}
+
+#pump_grid .k-grid-content tr,
+#motor_grid .k-grid-content tr,
+#grille_grid .k-grid-content tr,
+#gatemachine_grid .k-grid-content tr {
+    font-weight: none;
+    color: #333333;
+}
+
+#factInfo .k-grid-header th.k-header,
+#deviceInfo .k-grid-header th.k-header {
+    vertical-align: middle;
+    font-weight: bold;
+    color: #333333;
+}
+
+#factInfo .k-grid-content tr:hover,
+#deviceInfo .k-grid-content tr:hover {
+    background-color: #E5F3FF;
+    cursor: pointer;
+}
+
+
+/*采样器Css*/
+
+.Samper-div {
+    width: 320px;
+    padding: 0px;
+}
+
+.Samper-div table {
+    width: 100%;
+    font-family: "宋体";
+    font-size: 12px;
+    border: 1px solid #E4E4E4;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.Samper-div table tr td {
+    border: 1px solid #E4E4E4;
+    border-width: 0px 0px 1px 0px;
+    height: 30px;
+    text-align: center;
+    padding: 0px 3px;
+}
+
+.Samper-div table tr td {
+    border-width: 0px 1px 1px 0px;
+}
+
+.Samper-div table .td-left {
+    background-color: #F7F7F7;
+    color: #333333;
+    text-align: right;
+    width: 40%;
+}
+
+.Samper-div table .td-right1 {
+    text-align: center;
+    width: 16%;
+}
+
+.Samper-div table .td-right2 {
+    text-align: center;
+    width: 15%;
+}
+
+
+/*水质Css*/
+
+.waterQuality-div {
+    width: 230px;
+    height: 100%;
+    padding: 0px;
+    font-family: "SimSun";
+}
+
+.waterQuality-div table {
+    width: 100%;
+    font-family: "宋体";
+    font-size: 12px;
+    border: 1px solid #E4E4E4;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.waterQuality-div table td {
+    border: 1px solid #dcdcdc;
+    border-width: 0px 0px 1px 0px;
+    height: 30px;
+    text-align: left;
+    padding: 0px 3px;
+}
+
+.waterQuality-div table tr td:first-child {
+    border-width: 0px 1px 1px 0px;
+}
+
+.waterQuality-div .td-left {
+    background-color: #f7f7f7;
+    color: #333333;
+    text-align: right;
+    width: 55%;
+    padding-right: 10px;
+}
+
+.waterQuality-div table .td-right {
+    text-align: center;
+}
+/*污水基本*/
+#BZJBTable .title-td{
+    color: #666666;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 25px;
+    font-size: 14px;
+  }
+  #BZJBTable table{
+    width: 98%;
+    margin-left: 10px;
+  }
+  #BZJBTable .block-div {
+    width: 445px;
+    background-color: #FFFFFF;
+    float: left;
+  }
+  #BZJBTable #block-div{
+    margin-left: 5.1%;
+  }
+  #BZJBTable .block-div .td-left{
+    width: 90px;
+  }
+
+/*2017-11-30*/
+
+.k-window-title {
+    right: 40px;
+}
+
+.k-widget .k-window-titlebar {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    background-color: #4B71DE;
+    padding: 0px;
+}
+
+.k-widget .k-window-titlebar span {
+    color: #FFFFFF;
+}
+
+.k-widget .k-window-titlebar span.k-window-title div {
+    float: left;
+    margin: 9px 6px 0px 5px;
+    width: 4px;
+    height: 13px;
+    background-color: #ffffff;
+}
+
+.k-window-action k-link .k-i-close {
+    background-position: -34px -20px;
+}
+
+
+/*2017-12-06*/
+
+.k-header {
+    background-image: none, linear-gradient(to bottom, rgba(75, 113, 222, .0) 0, rgba(75, 113, 222, .0) 100%);
+    background-image: none, -webkit-gradient(linear, left top, left bottom, from(rgba(75, 113, 222, .0)), to(rgba(75, 113, 222, .0)));
+    background-image: none, -webkit-linear-gradient(top, rgba(75, 113, 222, .0) 0, rgba(75, 113, 222, .0) 100%);
+}
+
+.k-window-actions .k-link {
+    background-color: #819CE8;
+}
+
+.k-window-titlebar .k-window-actions {
+    padding: 0px 2px 0px 0px;
+}

@@ -1,0 +1,1836 @@
+{
+    "id": "SJZ_FXYJ",
+    "displayName": "石家庄防汛应急",
+    "description": null,
+    "currentVersion": "4.01",
+    "arcGisPortalAuthentication": null,
+    "hasNamedExtents": false,
+    "hasPrintTemplates": false,
+    "hasWorkflows": false,
+    "hasWebMaps": false,
+    "hasViewers": false,
+    "hasOverviewMap": true,
+    "hasNorthArrow": true,
+    "hasVirtualDirectory": true,
+    "hasGeocodingEndpoints": false,
+    "hasGeoprocessingEndpoints": false,
+    "hasGeometryEndpoints": false,
+    "updateInterval": 0,
+    "map": {
+        "primaryMapServiceID": "1",
+        "mapServices": [{
+                "id": "0",
+                "displayName": "防汛应急",
+                "description": "",
+                "connectionString": "url=http://110.249.147.68:8071/arcgisadaptor/rest/services/sjz/sjz_fxyj_map_v1/MapServer",
+                "copyright": "",
+                "serviceType": "Dynamic",
+                "serviceFunction": "Operational",
+                "opacity": 1,
+                "visible": true,
+                "drawingBehavior": "MapService",
+                "iconUri": null,
+                "includeInLayerList": true,
+                "defaultAllowSymbolization": true,
+                "isExpanded": true,
+                "updateInterval": null,
+                "dataProvider": null,
+                "startTime": null,
+                "endTime": null,
+                "serverVersion": "10.1",
+                "failureAction": "Warn",
+                "requestEncoding": null,
+                "supportsDynamicLayers": false,
+                "hasLayerCatalog": false,
+                "format": null,
+                "themeSettings": [],
+                "layerHyperlinks": [],
+                "tileInfo": {},
+                "instantSearch": false,
+                "layers": [{
+                        "id": "0",
+                        "name": "视频监测点",
+                        "nativeID": "0",
+                        "displayName": "视频监测点",
+                        "defaultVisibility": true,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{JCDname}",
+                        "featureDescription": "监测点地址：{JCDdz} \r\n视频播放地址：{SPBFdz} \r\n备注：{BZ}",
+                        "featureLongDescription": "视频播放地址|{SPBFdz}",
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "JCDname",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 494551.40087890625,
+                            "ymin": 193256.23248291016,
+                            "xmax": 507976.53887939453,
+                            "ymax": 203352.74353027344,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "监测点名称",
+                                "name": "JCDname",
+                                "alias": "监测点名称",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "监测点地址",
+                                "name": "JCDdz",
+                                "alias": "监测点地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "视频播放地址",
+                                "name": "SPBFdz",
+                                "alias": "视频播放地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            }
+                        ],
+                        "featureHyperlinks": [{
+                            "encodeUriReplacementValues": "Automatic",
+                            "iconUri": null,
+                            "target": null,
+                            "text": "视频播放地址",
+                            "toolTip": null,
+                            "uri": "{SPBFdz}"
+                        }],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "1",
+                        "name": "排水泵站",
+                        "nativeID": "1",
+                        "displayName": "排水泵站",
+                        "defaultVisibility": true,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{泵站名称}",
+                        "featureDescription": "泵站地址：{泵站地址}\r\n联系电话：{联系电话}\r\n占地面积：{占地面积}\r\n所属区：{所属区}",
+                        "featureLongDescription": "",
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "JCDname",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 494551.40087890625,
+                            "ymin": 193256.23248291016,
+                            "xmax": 507976.53887939453,
+                            "ymax": 203352.74353027344,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "监测点名称",
+                                "name": "JCDname",
+                                "alias": "监测点名称",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "监测点地址",
+                                "name": "JCDdz",
+                                "alias": "监测点地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "视频播放地址",
+                                "name": "SPBFdz",
+                                "alias": "视频播放地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "2",
+                        "name": "防汛中队",
+                        "nativeID": "2",
+                        "displayName": "防汛中队",
+                        "defaultVisibility": false,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{ZDname}",
+                        "featureDescription": "责任区域：{Flood_area}\r\n人数：{People_number}\r\n车数：{Car_number}\r\n中队长：{ZDZ}\r\n中队长电话：{ZDZphone}\r\n主要职责：{Duty}\r\n备注：{BZ}\r\n中队地址：{ZDDZ}",
+                        "featureLongDescription": null,
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "ZDname",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 495797.45812988281,
+                            "ymin": 193945.57489013672,
+                            "xmax": 505585.85107421875,
+                            "ymax": 200253.68072509766,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "中队名",
+                                "name": "ZDname",
+                                "alias": "中队名",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "责任区域",
+                                "name": "Flood_area",
+                                "alias": "责任区域",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "人数",
+                                "name": "People_number",
+                                "alias": "人数",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "车数",
+                                "name": "Car_number",
+                                "alias": "车数",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长",
+                                "name": "ZDZ",
+                                "alias": "中队长",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长电话",
+                                "name": "ZDZphone",
+                                "alias": "中队长电话",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "主要职责",
+                                "name": "Duty",
+                                "alias": "主要职责",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队地址",
+                                "name": "ZDDZ",
+                                "alias": "中队地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "3",
+                        "name": "应急抢险小分队",
+                        "nativeID": "3",
+                        "displayName": "应急抢险小分队",
+                        "defaultVisibility": false,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{应急抢险分队名称}",
+                        "featureDescription": "应急抢险分队名称：{应急抢险分队名称}\r\n人数：{人数}\r\n中队长：{中队长}\r\n中队长电话：{中队长电话}\r\n小分队地址：{ZDDZ}\r\n主要职责：{主要职责}",
+                        "featureLongDescription": null,
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "ZDname",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 495797.45812988281,
+                            "ymin": 193945.57489013672,
+                            "xmax": 505585.85107421875,
+                            "ymax": 200253.68072509766,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "中队名",
+                                "name": "ZDname",
+                                "alias": "中队名",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "责任区域",
+                                "name": "Flood_area",
+                                "alias": "责任区域",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "人数",
+                                "name": "People_number",
+                                "alias": "人数",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "车数",
+                                "name": "Car_number",
+                                "alias": "车数",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长",
+                                "name": "ZDZ",
+                                "alias": "中队长",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长电话",
+                                "name": "ZDZphone",
+                                "alias": "中队长电话",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "主要职责",
+                                "name": "Duty",
+                                "alias": "主要职责",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队地址",
+                                "name": "ZDDZ",
+                                "alias": "中队地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "4",
+                        "name": "桥下救援小分队",
+                        "nativeID": "4",
+                        "displayName": "桥下救援小分队",
+                        "defaultVisibility": false,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{救援中队名称}",
+                        "featureDescription": "小分队名称：{救援中队名称}\r\n人数：{人数}\r\n车数：{车数}\r\n中队长：{中队长}\r\n中队长电话：{中队长电话}\r\n责任道桥：{责任道桥}\r\n小分队地址：{ZDDZ}",
+                        "featureLongDescription": null,
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "ZDname",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 495797.45812988281,
+                            "ymin": 193945.57489013672,
+                            "xmax": 505585.85107421875,
+                            "ymax": 200253.68072509766,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "中队名",
+                                "name": "ZDname",
+                                "alias": "中队名",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "责任区域",
+                                "name": "Flood_area",
+                                "alias": "责任区域",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "人数",
+                                "name": "People_number",
+                                "alias": "人数",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "车数",
+                                "name": "Car_number",
+                                "alias": "车数",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长",
+                                "name": "ZDZ",
+                                "alias": "中队长",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长电话",
+                                "name": "ZDZphone",
+                                "alias": "中队长电话",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "主要职责",
+                                "name": "Duty",
+                                "alias": "主要职责",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队地址",
+                                "name": "ZDDZ",
+                                "alias": "中队地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "6",
+                        "name": "防汛范围",
+                        "nativeID": "6",
+                        "displayName": "防汛范围",
+                        "defaultVisibility": true,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{Name}",
+                        "featureDescription": "镐：{Hao} 把\r\n铁锨：{TX} 把\t    \r\n手电：{SD} 个\r\n电池：{DC} 节       \r\n铁勾子：{TGZ} 把",
+                        "featureLongDescription": null,
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "Name",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 495799.06951904297,
+                            "ymin": 193945.57489013672,
+                            "xmax": 505588.22149658203,
+                            "ymax": 200252.10668945313,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "单位名",
+                                "name": "Name",
+                                "alias": "单位名",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "编织袋",
+                                "name": "BZD",
+                                "alias": "编织袋",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "砂石料",
+                                "name": "SSL",
+                                "alias": "砂石料",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "水泥",
+                                "name": "SN",
+                                "alias": "水泥",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "镐",
+                                "name": "Hao",
+                                "alias": "镐",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "铁锨",
+                                "name": "TX",
+                                "alias": "铁锨",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "电缆",
+                                "name": "DL",
+                                "alias": "电缆",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "大绳",
+                                "name": "DS",
+                                "alias": "大绳",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "铁丝8公斤",
+                                "name": "TS8",
+                                "alias": "铁丝8公斤",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "铁丝10公斤",
+                                "name": "TS10",
+                                "alias": "铁丝10公斤",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "铁丝12公斤",
+                                "name": "TS12",
+                                "alias": "铁丝12公斤",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "照明线",
+                                "name": "ZMX",
+                                "alias": "照明线",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "潜水衣",
+                                "name": "QSY",
+                                "alias": "潜水衣",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "下水衣",
+                                "name": "XSY",
+                                "alias": "下水衣",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "风镐",
+                                "name": "FH",
+                                "alias": "风镐",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "发电机",
+                                "name": "FDJ",
+                                "alias": "发电机",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "手电",
+                                "name": "SD",
+                                "alias": "手电",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "电池",
+                                "name": "DC",
+                                "alias": "电池",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "雨鞋",
+                                "name": "YX",
+                                "alias": "雨鞋",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "手套",
+                                "name": "ST",
+                                "alias": "手套",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "铁勾子",
+                                "name": "TGZ",
+                                "alias": "铁勾子",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "隔离墩",
+                                "name": "GLD",
+                                "alias": "隔离墩",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "应急灯",
+                                "name": "YJD",
+                                "alias": "应急灯",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "竹竿",
+                                "name": "ZG",
+                                "alias": "竹竿",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "井口三角架",
+                                "name": "JKSJJ",
+                                "alias": "井口三角架",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "桥头警示牌",
+                                "name": "QTJSD",
+                                "alias": "桥头警示灯",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "警示灯",
+                                "name": "JSD",
+                                "alias": "警示灯",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "潜水泵3-4寸",
+                                "name": "QSB3_4",
+                                "alias": "潜水泵3-4寸",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "潜水泵6-8寸",
+                                "name": "QSB6_8",
+                                "alias": "潜水泵6-8寸",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "searchable": true,
+                                "name": "BZ",
+                                "visible": true,
+                                "dataType": "String",
+                                "displayName": "备注"
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "7",
+                        "name": "水闸",
+                        "nativeID": "7",
+                        "displayName": "水闸",
+                        "defaultVisibility": true,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": true,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{Name}",
+                        "featureDescription": "闸门所属单位：{SSDW}\r\n闸门所属线：{SSX}\r\n备注：{BZ}\r\n负责人：{FZR}\r\n负责人电话：{FZR_phone}\r\n围堰：{WeiYan}",
+                        "featureLongDescription": null,
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "Name",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 495718.93908691406,
+                            "ymin": 194493.26831054688,
+                            "xmax": 504455.41009521484,
+                            "ymax": 202111.70190429687,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "闸门名称",
+                                "name": "Name",
+                                "alias": "闸门名称",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "闸门所属单位",
+                                "name": "SSDW",
+                                "alias": "闸门所属单位",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "闸门所属线",
+                                "name": "SSX",
+                                "alias": "闸门所属线",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "负责人",
+                                "name": "FZR",
+                                "alias": "负责人",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "负责人电话",
+                                "name": "FZR_phone",
+                                "alias": "负责人电话",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "围堰",
+                                "name": "WeiYan",
+                                "alias": "围堰",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "8",
+                        "name": "地道桥",
+                        "nativeID": "8",
+                        "displayName": "地道桥",
+                        "defaultVisibility": true,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{DQname}",
+                        "featureDescription": "中队名：{ZDname}\r\n中队长：{ZDZ}\r\n中队长电话：{ZDZphone}\r\n备注：{BZ}",
+                        "featureLongDescription": null,
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "DQname",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 496149.15742861293,
+                            "ymin": 193284.2340761628,
+                            "xmax": 507973.50425977446,
+                            "ymax": 202998.42801781371,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "道桥名",
+                                "name": "DQname",
+                                "alias": "道桥名",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队名",
+                                "name": "ZDname",
+                                "alias": "中队名",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长",
+                                "name": "ZDZ",
+                                "alias": "中队长",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "中队长电话",
+                                "name": "ZDZphone",
+                                "alias": "中队长电话",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "name": "ORIG_FID",
+                                "dataType": "Int32"
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    },
+                    {
+                        "id": "9",
+                        "name": "易积水点",
+                        "nativeID": "9",
+                        "displayName": "易积水点",
+                        "defaultVisibility": true,
+                        "featureType": "Point",
+                        "type": "FeatureLayer",
+                        "maxScale": 0,
+                        "minScale": 0,
+                        "visible": false,
+                        "showMapTips": true,
+                        "identifiable": true,
+                        "queryable": true,
+                        "searchable": true,
+                        "supportsIdentify": true,
+                        "supportsQuery": true,
+                        "canCopyFeature": true,
+                        "snappable": true,
+                        "snappingEnabled": false,
+                        "hasAttachments": false,
+                        "featureLabel": "{ADD_}",
+                        "featureDescription": "地址：{ADD_}\r\n单位：{DANWEI}\r\n人数：{RENSHU}\r\n负责人：{FUZEREN}\r\n联系方法：{LIANXIFANGFA}\r\n备注：{BZ}",
+                        "featureLongDescription": null,
+                        "featureZoomFactor": null,
+                        "featureZoomScale": null,
+                        "featureBorderColor": null,
+                        "featureBorderWidth": null,
+                        "featureFillColor": null,
+                        "showFeatureHyperlinks": "ShowAll",
+                        "iconUri": null,
+                        "includeInLayerList": true,
+                        "includeInLegend": true,
+                        "allowSymbolization": true,
+                        "legendUrl": null,
+                        "styleName": null,
+                        "drawIndex": null,
+                        "canToggleLabels": false,
+                        "showLabels": true,
+                        "dataProvider": null,
+                        "displayField": "ADD_",
+                        "primaryKeyField": "OBJECTID",
+                        "fullExtent": {
+                            "xmin": 495446.51927347551,
+                            "ymin": 195078.05594829933,
+                            "xmax": 507673.15867562225,
+                            "ymax": 203221.71025141512,
+                            "spatialReference": {
+                                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                            }
+                        },
+                        "parentLayerId": null,
+                        "subLayerIds": [],
+                        "hasReports": false,
+                        "hasDataLinks": false,
+                        "fields": [{
+                                "name": "OBJECTID",
+                                "dataType": "Int32"
+                            },
+                            {
+                                "name": "SHAPE",
+                                "dataType": "Object"
+                            },
+                            {
+                                "displayName": "地址",
+                                "name": "ADD_",
+                                "alias": "地址",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "单位",
+                                "name": "DANWEI",
+                                "alias": "单位",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "人数",
+                                "name": "RENSHU",
+                                "alias": "人数",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "负责人",
+                                "name": "FUZEREN",
+                                "alias": "负责人",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "联系方法",
+                                "name": "LIANXIFANGFA",
+                                "alias": "联系方法",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "displayName": "备注",
+                                "name": "BZ",
+                                "alias": "备注",
+                                "visible": true,
+                                "dataType": "String",
+                                "searchable": true
+                            },
+                            {
+                                "name": "ORIG_FID",
+                                "dataType": "Int32"
+                            }
+                        ],
+                        "featureHyperlinks": [],
+                        "layerHyperlinks": [],
+                        "isDynamic": false,
+                        "dynamicDefinition": null,
+                        "themeSettings": [],
+                        "tileLevelLimits": [],
+                        "dataLinks": [],
+                        "featureMaps": [],
+                        "relationships": [],
+                        "reports": [],
+                        "properties": [],
+                        "extensions": []
+                    }
+                ],
+                "fullExtent": {
+                    "xmin": 485916.02210944495,
+                    "ymin": 188616.55675104563,
+                    "xmax": 521056.89997915737,
+                    "ymax": 208153.95921670887,
+                    "spatialReference": {
+                        "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                    }
+                },
+                "spatialReference": {
+                    "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                },
+                "properties": [],
+                "extensions": []
+            },
+            {
+                "id": "1",
+                "displayName": "底图",
+                "description": "",
+                "connectionString": "url=http://110.249.147.68:8071/arcgisadaptor/rest/services/sjz/sjz_ditu_map_v12/MapServer",
+                "copyright": "",
+                "serviceType": "Tiled",
+                "serviceFunction": "Base",
+                "opacity": 0.5,
+                "visible": true,
+                "drawingBehavior": "MapService",
+                "iconUri": null,
+                "includeInLayerList": true,
+                "defaultAllowSymbolization": true,
+                "isExpanded": true,
+                "updateInterval": null,
+                "dataProvider": null,
+                "startTime": null,
+                "endTime": null,
+                "serverVersion": "10.1",
+                "failureAction": "Warn",
+                "requestEncoding": null,
+                "supportsDynamicLayers": false,
+                "hasLayerCatalog": false,
+                "format": null,
+                "themeSettings": [],
+                "layerHyperlinks": [],
+                "tileInfo": {
+                    "dpi": 96,
+                    "format": null,
+                    "spatialReference": {
+                        "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                    },
+                    "height": 256,
+                    "width": 256,
+                    "origin": {
+                        "x": -5665700,
+                        "y": 5988900
+                    },
+                    "lods": [{
+                            "level": "0",
+                            "scale": 4000000,
+                            "resolution": 1058.3354500042335
+                        },
+                        {
+                            "level": "1",
+                            "scale": 2000000,
+                            "resolution": 529.1677250021168
+                        },
+                        {
+                            "level": "2",
+                            "scale": 1000000,
+                            "resolution": 264.5838625010584
+                        },
+                        {
+                            "level": "3",
+                            "scale": 250000,
+                            "resolution": 66.1459656252646
+                        },
+                        {
+                            "level": "4",
+                            "scale": 125000,
+                            "resolution": 33.0729828126323
+                        },
+                        {
+                            "level": "5",
+                            "scale": 64000,
+                            "resolution": 16.933367200067735
+                        },
+                        {
+                            "level": "6",
+                            "scale": 32000,
+                            "resolution": 8.4666836000338677
+                        },
+                        {
+                            "level": "7",
+                            "scale": 16000,
+                            "resolution": 4.2333418000169338
+                        },
+                        {
+                            "level": "8",
+                            "scale": 8000,
+                            "resolution": 2.1166709000084669
+                        },
+                        {
+                            "level": "9",
+                            "scale": 4000,
+                            "resolution": 1.0583354500042335
+                        },
+                        {
+                            "level": "10",
+                            "scale": 2000,
+                            "resolution": 0.52916772500211673
+                        },
+                        {
+                            "level": "11",
+                            "scale": 1000,
+                            "resolution": 0.26458386250105836
+                        }
+                    ]
+                },
+                "instantSearch": false,
+                "layers": [],
+                "fullExtent": {
+                    "xmin": 191277.12650000025,
+                    "ymin": 46331.79920000024,
+                    "xmax": 682369.7028999999,
+                    "ymax": 411854.6121999994,
+                    "spatialReference": {
+                        "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                    }
+                },
+                "spatialReference": {
+                    "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                },
+                "properties": [],
+                "extensions": []
+            }
+        ],
+        "initialExtent": {
+            "xmin": 483557.489,
+            "ymin": 187819.352,
+            "xmax": 527114.608,
+            "ymax": 209382.936,
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            }
+        },
+        "fullExtent": {
+            "xmin": 191277.12650000025,
+            "ymin": 46331.79920000024,
+            "xmax": 682369.7028999999,
+            "ymax": 411854.6121999994,
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            }
+        },
+        "units": {
+            "type": "Meters",
+            "name": "Meters"
+        },
+        "layerThemes": {
+            "allowDefault": false,
+            "defaultThemeDisplayName": null,
+            "startupThemeID": null,
+            "items": []
+        }
+    },
+    "overviewMap": {
+        "primaryMapServiceID": "0",
+        "mapServices": [{
+            "id": "0",
+            "displayName": "WAVENET_SJZ",
+            "description": "",
+            "connectionString": "url=http://110.249.147.68:8071/arcgisadaptor/rest/services/sjz/sjz_ditu_map_v12/MapServer",
+            "copyright": "",
+            "serviceType": "Tiled",
+            "serviceFunction": "Operational",
+            "opacity": 1,
+            "visible": true,
+            "drawingBehavior": "MapService",
+            "iconUri": null,
+            "includeInLayerList": true,
+            "defaultAllowSymbolization": true,
+            "isExpanded": true,
+            "updateInterval": null,
+            "dataProvider": null,
+            "startTime": null,
+            "endTime": null,
+            "serverVersion": "10.1",
+            "failureAction": "Warn",
+            "requestEncoding": null,
+            "supportsDynamicLayers": false,
+            "hasLayerCatalog": false,
+            "format": null,
+            "themeSettings": [],
+            "layerHyperlinks": [],
+            "tileInfo": {
+                "dpi": 96,
+                "format": null,
+                "spatialReference": {
+                    "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                },
+                "height": 256,
+                "width": 256,
+                "origin": {
+                    "x": -5665700,
+                    "y": 5988900
+                },
+                "lods": [{
+                        "level": "0",
+                        "scale": 4000000,
+                        "resolution": 1058.3354500042335
+                    },
+                    {
+                        "level": "1",
+                        "scale": 2000000,
+                        "resolution": 529.1677250021168
+                    },
+                    {
+                        "level": "2",
+                        "scale": 1000000,
+                        "resolution": 264.5838625010584
+                    },
+                    {
+                        "level": "3",
+                        "scale": 250000,
+                        "resolution": 66.1459656252646
+                    },
+                    {
+                        "level": "4",
+                        "scale": 125000,
+                        "resolution": 33.0729828126323
+                    },
+                    {
+                        "level": "5",
+                        "scale": 64000,
+                        "resolution": 16.933367200067735
+                    },
+                    {
+                        "level": "6",
+                        "scale": 32000,
+                        "resolution": 8.4666836000338677
+                    },
+                    {
+                        "level": "7",
+                        "scale": 16000,
+                        "resolution": 4.2333418000169338
+                    },
+                    {
+                        "level": "8",
+                        "scale": 8000,
+                        "resolution": 2.1166709000084669
+                    },
+                    {
+                        "level": "9",
+                        "scale": 4000,
+                        "resolution": 1.0583354500042335
+                    },
+                    {
+                        "level": "10",
+                        "scale": 2000,
+                        "resolution": 0.52916772500211673
+                    },
+                    {
+                        "level": "11",
+                        "scale": 1000,
+                        "resolution": 0.26458386250105836
+                    }
+                ]
+            },
+            "instantSearch": false,
+            "layers": [],
+            "fullExtent": {
+                "xmin": 191277.12650000025,
+                "ymin": 46331.79920000024,
+                "xmax": 682369.7028999999,
+                "ymax": 411854.6121999994,
+                "spatialReference": {
+                    "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+                }
+            },
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            },
+            "properties": [],
+            "extensions": []
+        }],
+        "initialExtent": {
+            "xmin": 483557.489,
+            "ymin": 187819.352,
+            "xmax": 527114.608,
+            "ymax": 209382.936,
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            }
+        },
+        "fullExtent": {
+            "xmin": 191277.12650000025,
+            "ymin": 46331.79920000024,
+            "xmax": 682369.7028999999,
+            "ymax": 411854.6121999994,
+            "spatialReference": {
+                "wkt": "PROJCS[\"Xian_1980_3_Degree_GK_CM_114E\", GEOGCS[\"GCS_Xian_1980\", DATUM[\"D_Xian_1980\", SPHEROID[\"Xian_1980\", 6378140, 298.257]], PRIMEM[\"Greenwich\", 0], UNIT[\"Degree\", 0.0174532925199433]], PROJECTION[\"Gauss_Kruger\"], PARAMETER[\"False_Easting\", -42511], PARAMETER[\"False_Northing\", -4013210], PARAMETER[\"Central_Meridian\", 114], PARAMETER[\"Scale_Factor\", 1], PARAMETER[\"Latitude_Of_Origin\", 0], UNIT[\"Meter\", 1]]"
+            }
+        }
+    },
+    "printTemplates": [],
+    "namedExtents": [],
+    "searchTables": [],
+    "workflows": [],
+    "northArrow": {
+        "characterIndex": 176,
+        "foreColor": "Black"
+    },
+    "viewers": [],
+    "geocodingEndpoints": [],
+    "geoprocessingEndpoints": [],
+    "geometryEndpoints": [],
+    "dataProvider": null,
+    "signInEnabled": true,
+    "signOutEnabled": true,
+    "signOutRedirectUrl": null,
+    "principal": {
+        "isAuthenticated": false,
+        "label": "Guest",
+        "expiry": null,
+        "identities": [{
+            "authenticationType": "",
+            "isAuthenticated": false,
+            "nameClaimType": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+            "roleClaimType": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+            "label": null,
+            "claims": [{
+                    "type": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+                    "value": "Guest",
+                    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                    "issuer": "urn:gcx:guest",
+                    "originalIssuer": "urn:gcx:guest",
+                    "properties": {}
+                },
+                {
+                    "type": "http://www.geocortex.net/security/claims/category/guest",
+                    "value": "",
+                    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                    "issuer": "urn:gcx:guest",
+                    "originalIssuer": "urn:gcx:guest",
+                    "properties": {}
+                },
+                {
+                    "type": "http://www.geocortex.net/security/claims/audience",
+                    "value": "",
+                    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                    "issuer": "urn:gcx:global",
+                    "originalIssuer": "urn:gcx:global",
+                    "properties": {}
+                },
+                {
+                    "type": "http://www.geocortex.net/security/claims/policy",
+                    "value": "",
+                    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                    "issuer": "urn:gcx:global",
+                    "originalIssuer": "urn:gcx:global",
+                    "properties": {}
+                },
+                {
+                    "type": "http://www.geocortex.net/security/claims/category",
+                    "value": "clear-conversation",
+                    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                    "issuer": "urn:gcx:global",
+                    "originalIssuer": "urn:gcx:global",
+                    "properties": {}
+                },
+                {
+                    "type": "http://www.geocortex.net/security/claims/category/known",
+                    "value": "",
+                    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                    "issuer": "urn:gcx:global",
+                    "originalIssuer": "urn:gcx:global",
+                    "properties": {}
+                },
+                {
+                    "type": "http://www.geocortex.net/security/claims/category/any",
+                    "value": "",
+                    "valueType": "http://www.w3.org/2001/XMLSchema#string",
+                    "issuer": "urn:gcx:global",
+                    "originalIssuer": "urn:gcx:global",
+                    "properties": {}
+                }
+            ]
+        }],
+        "policy": {
+            "authenticate": false,
+            "hints": null,
+            "issuers": [{
+                "displayName": "Windows Integrated",
+                "displayType": "Windows Integrated",
+                "type": "windows",
+                "hint": null,
+                "urls": {
+                    "signIn": "http://userexperience/Geocortex/Essentials/REST/security/signIn?idp_name=AD AUTHORITY"
+                }
+            }]
+        },
+        "urls": {
+            "expirationNotice": "http://userexperience/Geocortex/Essentials/REST/security/expirationNotice",
+            "referrer": null,
+            "refresh": null,
+            "signIn": "http://userexperience/Geocortex/Essentials/REST/security/signIn",
+            "signOut": "http://userexperience/Geocortex/Essentials/REST/security/signOut"
+        },
+        "tokens": {
+            "arcgis": {},
+            "geocortex": {},
+            "site": null
+        }
+    },
+    "properties": [],
+    "extensions": []
+}
